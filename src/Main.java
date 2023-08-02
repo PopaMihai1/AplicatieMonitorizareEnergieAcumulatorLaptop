@@ -3,7 +3,7 @@ public class Main {
         int capacitateAcumulator = 10000; // Capacitatea acumulatorului în mAh (miliamperi-ora)
         Laptop laptop = new Laptop(capacitateAcumulator);
 
-        int timpSimulare = 90000; // 90 de secunde (30000 milisecunde)
+        int timpSimulare = 90000; // 90 de secunde (90000 milisecunde)
         int putereUtilizare = 100; // Cantitatea de energie consumată de laptop într-un interval (100 mAh)
 
         laptop.utilizeazaLaptop(timpSimulare, putereUtilizare);
